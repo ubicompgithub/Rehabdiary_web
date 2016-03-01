@@ -1,0 +1,5 @@
+<?php
+$LAPSE_THRESHOLD = 0.06;
+$RELAPSE_THRESHOLD = 0.25;
+
+?>

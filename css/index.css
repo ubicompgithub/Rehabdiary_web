@@ -1,0 +1,543 @@
+@charset "UTF-8";
+
+html{
+   width:auto;
+   height:100%;
+}
+
+body{
+   width:auto;
+   height:100%;
+   /*font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;*/
+}
+
+.chinese-font{
+   font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "Microsoft JhengHei", sans-serif;
+}
+
+.table-condensed{
+  font-size: 14px;
+}
+
+#data-table{
+   width: 738px;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.emotion_img{
+   width: 23px;
+   height: 23px;
+   position: absolute;
+   top: 20px;
+   left: 13px;
+}
+
+.desire_img{
+   width: 23px;
+   height: 23px;
+   position: absolute;
+   top: 20px;
+   left: 55px;
+}
+
+#date-button{
+   width:50px; 
+   float: left; 
+   margin: 0px;
+}
+
+#date-button:hover {
+   cursor: pointer;
+}
+
+#date-row a{
+   width: 45px;
+}
+
+.patient-name-div{
+   width: 100px;
+   height: 135px;
+   text-align: center;
+   line-height: 145px;
+   /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+   font-weight: bold;
+   background-color: rgba(94,18,250,0.1);
+   border-bottom: 1px solid #c2b5b5;
+   margin-bottom: 5px;
+}
+
+.patient-name-div:hover {
+   cursor: pointer
+}
+
+#left-bar{
+
+width:10%;
+float:left;
+
+}
+
+.userNameSubButton{
+
+	margin-left:-20px;
+
+}
+
+.change-page{
+
+   line-height:27px;
+   padding-left:10px;
+   color:black;
+   /*font-family: Century Gothic, sans-serif;*/
+   /*font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;*/
+   width:10%;
+
+}
+
+.container{
+   font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "Microsoft JhengHei", sans-serif;
+   text-align: center;
+}
+
+
+#bar{
+   padding-top:0px;
+   width:100%;
+   height:17px;
+   background-color:black;
+   margin-top:15px;
+   margin-bottom:15px;
+}
+
+#search-bar{
+   width:auto;
+   height:30px;
+   border: 2px solid #385D8A;
+   margin-bottom:10px;
+}
+
+#search-list{
+   width:75%;
+   height:30px;
+   line-height:30px;
+   float:left;
+}
+
+#patient-text{
+   float:left;
+}
+
+#patient-list{
+   width:100%;
+   height:30px;
+}
+
+.patient-button{
+   width:80px;
+   height:24px;
+   text-align:center;
+   line-height:24px;
+   float:left;
+   border: 1px solid #000000;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   margin:2px;
+   background-color:#FFFFC0;
+}
+
+.patient-button:hover {
+   cursor:pointer;
+}
+
+#search-patient{
+   width:25%;
+   height:30px;
+   line-height:30px;
+   float:right;
+   text-align:right;
+}
+
+#search-patient-input{
+   width:100px;
+}
+
+#search-by-id-form{
+   float:right;
+   vertical-align:middle;
+}
+
+#logo{
+   float:left;
+
+}
+
+#img-logo{
+
+   width:80;
+   height:auto;
+
+}
+
+#title{
+   margin-top:0px;
+   /*font-family: Impact, Charcoal, sans-serif;*/
+   font-size:18px;
+   /*font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
+   /*font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;*/
+   text-align:center;
+   line-height:8;
+   height:80px;
+}
+
+
+#mainTable{
+   
+   /*border-style:groove;*/
+   /*border-collapse:collapse;*/
+   table-layout:fixed;
+   margin:auto;
+}
+
+#range{
+   width:100%;
+   font-size:10px;
+}
+
+#date-row{
+   width: 588px;
+   height: 44px;
+   overflow: hidden;
+   vertical-align:top;
+}
+
+.first-row-date{
+
+   padding-left:15px;
+   font-size:15px;
+}
+
+#patient_row_odd{
+   width:1000px;
+   margin:0px;
+}
+
+#patient_row_even{
+
+   /*background-color:rgba(0,143,233,0.1);*/
+   height:120px;
+}
+
+.row-in-bar{
+   width:100%;
+   height:10px;
+}
+#patientName{
+   color: #333333;
+   /*font-family: Impact, Charcoal, sans-serif;*/
+   font-size:20px;
+   vertical-align:top;
+   width:100px;
+}
+#patientName:hover {
+   cursor: pointer;
+
+}
+
+#td_date{
+   vertical-align:top;
+   width:0px;
+   min-width:115px;
+}
+
+#year{
+   padding-top:10px;
+   height:3em;
+   display:table-cell;
+   vertical-align:top;
+}
+
+#month-date{
+   /*padding-right:10px;*/
+   padding-left:16px;   
+   font-size:16px;
+   text-align:left;
+   
+}
+
+
+#td_content{
+   height:100%;
+   width:140px;
+   /*font-family: Century Gothic, sans-serif;*/
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+   /*font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;*/
+   font-size:13px;
+   min-width:1200px;
+}
+
+
+#one-data{
+
+   padding-left:0px;
+   padding-top:0px;
+   padding-bottom:0px;
+   width:100%;
+   /*background-color:red;*/
+   height:45px;   
+   vertical-align:middle;
+   text-align:center;
+   line-height:25px;
+   position: relative;
+
+}
+
+
+/*one data is a box with a time and a value. */
+.one-data-over{
+
+   padding-left:0px;
+   padding-top:0px;
+   padding-bottom:0px;
+   width:100%;
+   /*background-color:red;*/
+   height:45px;   
+   vertical-align:middle;
+   text-align:center;
+   line-height:25px;
+   background-color:rgba(255,0,0,0.4);
+   position: relative;
+}
+
+.one-data-over2{
+
+   padding-left:0px;
+   padding-top:0px;
+   padding-bottom:0px;
+   width:100%;
+   /*background-color:red;*/
+   height:45px;   
+   vertical-align:middle;
+   text-align:center;
+   line-height:25px;
+   background-color:rgba(249,117,48,0.4);
+   position: relative;
+}
+
+.one-data-over3{
+
+   padding-left:0px;
+   padding-top:0px;
+   padding-bottom:0px;
+   width:100%;
+   /*background-color:red;*/
+   height:45px;   
+   vertical-align:middle;
+   text-align:center;
+   line-height:25px;
+   background-color:rgba(255,245,37,0.4);
+   position: relative;
+}
+
+.one-data-under{
+
+   padding-left:0px;
+   padding-top:0px;
+   padding-bottom:0px;
+   width:100%;
+   /*background-color:red;*/
+   height:45px;   
+   vertical-align:middle;
+   text-align:center;
+   line-height:25px;
+   background-color:rgba(217,235,89,0.4);
+   position: relative;
+
+}
+
+.one-data-under2{
+
+   padding-left:0px;
+   padding-top:0px;
+   padding-bottom:0px;
+   width:100%;
+   /*background-color:red;*/
+   height:45px;   
+   vertical-align:middle;
+   text-align:center;
+   line-height:25px;
+   background-color:rgba(82,196,18,0.4);
+   position: relative;
+}
+
+.one-data-under3{
+   width:100%;
+   padding-left:0px;
+   padding-top:0px;
+   padding-bottom:0px;
+   /*background-color:red;*/
+   height:45px;   
+   vertical-align:middle;
+   /*text-align:center;*/
+   line-height:25px;
+   background-color:rgba(100,246,16,0.4);
+   position: relative;
+}
+
+.one-data-error{
+   width:100%;
+   padding-left:0px;
+   padding-top:0px;
+   padding-bottom:0px;
+   /*background-color:red;*/
+   height:45px;   
+   vertical-align:middle;
+   /*text-align:center;*/
+   background-color:rgba(180,170,170,0.3);
+}
+
+
+.div-no-data{
+
+   width:84px;
+   height:45px;
+   text-align:center;
+   line-height: 45px;
+   /*padding-left:15px;*/
+   font-size:16px;
+   /*color: rgb(255,217,59);*/
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+   /*font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;*/
+   font-size:13px;   
+   background-color:rgba(180,170,170,0.3);
+   padding-left:0px;
+
+}
+
+#small_time{
+
+   float:left;
+   padding-left:5px;
+   width:36px;
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+   /*font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;*/
+   font-weight: bold;
+   font-size:13px;
+   text-align:left;
+   height:100%;
+   
+}
+
+.overStandard{
+   /*background-color:rgba(255,255,255,0.1);*/
+   float:left;
+   /*background-color:rgba(255,0,0,0.4);*/
+   padding-left:0px;
+   text-align:left;
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+   /*font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;*/
+   font-size:13px;
+   width:43px;
+   height:100%;
+}
+
+.underStandard{
+   float:left;
+   padding-left:0px;
+   text-align:center;
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/ 
+   /*font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;  */
+   font-size:13px;
+   width:43px;
+   height:100%;
+}
+/* new table test */
+
+#new-table{
+   /*border: 1px solid #c2b5b5;*/
+   margin:auto;
+   width:100%;
+   float:left;
+   /*text-align: center;*/
+}
+
+.div-row{
+
+   width:100%;
+   height:90px;
+   float:left;
+   margin-bottom:5px;
+   border-bottom: 1px solid #c2b5b5;
+}
+
+
+.div-patient-name{
+
+   float:left;
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+   /*font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;*/
+   font-size:13px;
+   width:70px;
+   background-color:rgba(94,18,250,0.1);
+   height:100%;
+}
+
+.patient-name-label{
+   clear:both;
+    text-align:center;
+    text-decoration:underline;
+}
+
+.patient-name-label:hover {
+   cursor: pointer;
+  
+}
+
+.image-profile-pic{
+
+   width:50px;
+   height:auto;
+   margin-left:10px;
+   margin-top:20px;
+}
+
+
+.div-content{
+
+   float:left;
+   width:84px;
+   /*border-left: 1px solid #c2b5b5;*/
+   height:100%;
+   text-align: center;
+   /*margin-left:5px;*/
+}
+
+#div-cross{
+   width:70px;
+   height:20px;
+   float:left;
+}
+
+.div-first-row-one-date{
+
+   width:84px;
+   float:left;
+   text-align:left;
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+   /*font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;*/
+   font-size:13px;
+   /*border-left: 1px solid #c2b5b5;*/
+
+}
+
+.div-date-row{
+
+   width:100%;
+   height:20px;
+   color:blue;
+   margin-bottom:30px;
+
+}
+

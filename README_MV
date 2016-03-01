@@ -1,0 +1,6 @@
+Things has to be modified when moving directory:
+
+1. change the absolute path in /etc/crontab to execute daily_clickLog_parser.php
+
+2. change the absolute path in /etc/crontab to execute state_notify.php (ignored this if the original one is still working; otherwise the email will sent twice)
+

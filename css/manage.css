@@ -1,0 +1,13 @@
+.patient_row{
+   height: 30px;
+   border-radius: 10px;
+}
+
+.drop_btn{
+   position: float;
+   float: right;
+}
+
+a:hover {
+   cursor: pointer;
+}

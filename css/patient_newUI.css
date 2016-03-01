@@ -1,0 +1,379 @@
+html{
+   width:auto;
+   height:100%;
+}
+
+body{
+   width:auto;
+   height:100%;
+   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#left-bar{
+
+width:10%;
+float:left;
+
+}
+
+.redirect-button{
+   width:100%;
+}
+
+#container{
+   float:left;
+   padding-top:0px;
+   width:100%;
+   margin:auto;
+   min-width:1200px;
+}
+
+
+#bar{
+   padding-top:0px;
+   width:100%;
+   height:17px;
+   background-color:black;
+   margin-top:-15px;   
+   margin-bottom:15px;
+}
+
+#back-button{
+
+   color:white;
+   text-decoration:underline;
+}
+
+#back-button:hover {
+   cursor: pointer;
+
+}
+
+#search-bar{
+   width:100%;
+   height:30px;
+   border: 2px solid #385D8A;
+   margin-bottom:10px;
+}
+
+#search-list{
+   width:75%;
+   height:30px;
+   line-height:30px;
+   float:left;
+}
+
+#patient-text{
+   float:left;
+}
+
+#patient-list{
+   width:100%;
+   height:30px;
+}
+
+.patient-button{
+   width:80px;
+   height:24px;
+   text-align:center;
+   line-height:24px;
+   float:left;
+   border: 1px solid #000000;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   margin:2px;
+   background-color:#FFFFC0;
+}
+
+.patient-button:hover {
+   cursor:pointer;
+}
+
+#search-patient{
+   width:auto;
+   height:30px;
+   line-height:30px;
+   float:right;
+   text-align:right;
+}
+
+#search-by-id-form{
+   float:right;
+   vertical-align:middle;
+}
+
+.big-block{
+   width:100%;
+   height:auto;
+   border:2px solid black;
+   margin-bottom:10px;
+}
+
+.big-block-title{
+   width:100%;
+   font-size:30px;
+   text-align:center;
+}
+
+.big-block-content{
+   background-color:#DCE6F2;
+}
+
+#edit-button{
+   width:60px;
+   height:37px;
+   float:right;
+}
+
+#edit-done-button{
+   display:none;
+   width:60px;
+   height:37px;
+   float:left;
+}
+
+.progressbar{
+   width:50%;
+   float:left;
+
+}
+
+#title{
+
+   width:100%
+   margin-top:0px;
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+   font-size:18px;
+   text-align:center;
+   margin-bottom:15px;
+
+}
+
+.change-page{
+
+   line-height:27px;
+   padding-left:10px;
+   color:black;
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+   width:140px;
+
+}
+
+.information-row{
+   height:19px;
+   padding-top:10px;
+   padding-bottom:10px;
+}
+
+.information{
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;	
+   float:left;
+   width:25%;
+}
+
+.information-half{
+   float:left;
+   width:50%;
+}
+
+progress{
+   margin-right:10px;
+}
+
+#information{
+   float:left;
+   width:50%;
+}
+
+#table-header{
+
+   width:100%;
+   height:50px;
+   /*'background-color:black;*/
+
+
+}
+
+#table-header-date{
+   margin-top:15px;
+   margin-bottom:-5px;
+   float:left;
+   font-size:25px;
+   padding-right:20px;
+   padding-left:5px;
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#table-header-time-and-brac{
+
+   float:left;
+   font-size:20px;
+   margin-left:7px;
+}
+
+.table-header{
+
+   color:black;
+   /*font-family: Century Gothic, sans-serif;*/
+   font-size:20px;
+   
+   
+}
+
+
+#brac-table{
+   
+   width:100%;
+   margin-top:20px;
+   /*border-style:groove;*/
+   margin-bottom:100px;
+   table-layout:fixed;
+   height:500px;
+   overflow:auto;
+   /*white-space: nowrap;*/
+}
+
+#brac-grand-table{
+
+	width:95%;
+	overflow:auto;
+}
+
+.brac-table-row{
+   float:left;
+   width:38px;
+   height:40px;
+
+}
+
+.brac-table-date{
+   /*float:left;*/
+   /*width:90px;
+   min-width:89px;*/
+   width:39px;
+   height:40px;
+   padding-right:5px;
+   /*padding-left:5px;*/
+   font-size:13px;
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+   color:blue;
+
+}
+
+.brac-table-pair-under{
+
+   float:left;
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+   margin-right:0px;
+   margin-left:0px;
+   background-color:rgba(217,235,89,0.5);
+   width:38px;
+   height:100%;
+}
+
+.brac-table-pair-under2{
+
+   float:left;
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+   margin-right:0px;
+   margin-left:0px;
+   background-color:rgba(82,196,18,0.5);
+   width:38px;
+   height:100%;
+}
+
+.brac-table-pair-under3{
+
+   float:left;
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+   margin-right:0px;
+   margin-left:0px;
+   background-color:rgba(100,246,16,0.5);
+   width:38px;
+   height:100%;
+}
+
+.brac-table-pair-over{
+
+   float:left;
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+   margin-right:0px;
+   margin-left:0px;
+   background-color:rgba(255,0,0,0.6);
+   width:38px;
+   height:100%;
+}
+
+.brac-table-pair-over2{
+   float:left;
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+   margin-right:0px;
+   margin-left:0px;
+   background-color:rgba(249,117,48,0.5);
+   width:38px;
+   height:100%;
+}
+
+.brac-table-pair-over3{
+   float:left;
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+   margin-right:0px;
+   margin-left:0px;
+   background-color:rgba(255,245,37,0.5);
+   width:38px;
+   height:100%;
+}
+
+.brac-table-pair-error{
+   float:left;
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+   margin-right:0px;
+   margin-left:0px;
+   background-color:rgba(175,177,175,0.6);
+   width:38px;
+   height:100%;
+}
+
+.pair-time{
+   width:100%;
+   font-size:12px;
+   text-align:center;
+   height:50%;
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+   
+}
+
+.pair-BRAC{
+   width:100%;
+   font-size:12px;
+   text-align:center;
+   height:50%;
+   /*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;*/
+   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+   
+}
+
+
+.chart{
+
+   padding-bottom:100px;
+
+}
+
+#map_canvas{
+   margin:auto;
+   margin-bottom:50px;
+}

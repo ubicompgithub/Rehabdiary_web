@@ -1,0 +1,47 @@
+#information { 
+  z-index: 1; 
+  position: 
+  absolute; 
+  width:98%; 
+  height:15%; 
+  top:5%; 
+  left:1%; 
+  text-align: center;    
+  border: 1px solid #FFF; 
+
+  z-index:0;  
+} 
+#sub_content { 
+  position:relative;
+  top:10%;
+  left:0.5%;
+  width:30%;
+  height:65%;
+  text-align: center;   
+  border: 1px solid #FFF; 
+
+  float:left;
+  z-index:0;  
+} 
+.main { 
+  position:absolute;
+  top:22%;
+  left:31.5%;
+  width:68%;
+  height:50%;
+  text-align: 50%;   
+  border: 1px solid #FFF; 
+  
+  z-index:1;  
+} 
+#footer { 
+  position:absolute;
+  top:90%;
+  left:1%;
+  width:98%;
+  height:20%;
+  text-align: center;   
+  border: 1px solid #FFF; 
+
+  z-index:0;  
+} 

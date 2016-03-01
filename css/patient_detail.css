@@ -1,0 +1,57 @@
+.google-visualization-tooltip{
+   position: relative;
+   width: 360px;
+   /*height: 200px;*/
+}
+
+.blow_img{
+   /*position: absolute;*/
+   width:   160px;
+   height:  120px;
+   /* Firefox */
+   -moz-transform:rotate(-90deg);
+   /* Safari and Chrome */
+   -webkit-transform:rotate(-90deg);
+   /* Opera */
+   -o-transform:rotate(-90deg);
+   /* IE9 */
+   -ms-transform:rotate(-90deg);
+}
+
+.blow_img1{
+   position: absolute;
+   top: 20px;
+   left: -20px;
+}
+
+.blow_img2{
+   position: absolute;
+   top: 20px;
+   left: 100px;
+}
+
+.blow_img3{
+   position: absolute;
+   top: 20px;
+   left: 220px;
+}
+
+.blow_time{
+   width: 360px;
+   position: absolute;
+   top: 160px;
+   text-align: center;
+   font-family: "Helvetica Neue", Helvetica, Arial;
+}
+
+.blow_data{
+   width: 360px;
+   position: absolute;
+   top: 180px;
+   text-align: center;
+   font-family: "Helvetica Neue", Helvetica, Arial;
+}
+
+.google-visualization-table-div-page{
+   text-align: left; /* to make the positions of left right buttons fixed */
+}

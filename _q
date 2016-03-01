@@ -1,0 +1,22 @@
+
+<?php
+   require_once('check_session.php');
+   check_session_with_target('saliva.php');
+
+   $ID = $_POST["Id"];
+   $ID_initail = $_POST["Id_initial"];
+   $ID_final = $_POST["Id_final"];
+
+   $today = date("Y-m-d");
+   
+   $query = ;
+   //"INSERT INTO `rehabdiary`.`Saliva` ('CreateDate', 'CassetteId, 'IsUsed'') VALUES("$today","$ID",0)";
+
+
+
+   include_once('connect_db.php');
+   $conn = connect_to_db();
+   $success = mysql_query($query);
+   mysql_close($conn);
+   header('Location:saliva.php');
+?>
